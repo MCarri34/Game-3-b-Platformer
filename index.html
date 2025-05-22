@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Quest</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+        }
+        #phaser-game {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="phaser-game"></div>
+
+    <!-- Phaser library -->
+    <script src="lib/phaser.js"></script>
+
+    <!-- Game scenes and logic -->
+    <script src="src/Scenes/Load.js"></script>
+    <script src="src/Scenes/Player.js"></script>
+    <script src="src/Scenes/Platformer.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
